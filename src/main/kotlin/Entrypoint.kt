@@ -5,7 +5,6 @@ import io.grpc.ServerBuilder
 import java.util.concurrent.Executors
 
 fun main() {
-
     ServerBuilder
         .forPort(9090)
         .executor(Executors.newFixedThreadPool(50))
